@@ -144,13 +144,12 @@ position: relative;
     text-align: center;
     align-items: center;
 }
-
 .grid-cardItem img{
     width: 25%;
 }
 
 .grid-cardItem p{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* Grid 2 */
@@ -215,6 +214,64 @@ position: relative;
     object-fit: cover;
     object-position: 0 0 50px 0;
 }
+/* middle section */
+.container_add{
+    background-color: tan;
+    width: 100%;
+    height: 800px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container_add img{
+    height: 100%;
+    
+}
+
+.elements_add{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+#block {
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 72px;
+    left: 1195px;
+}
+
+.elements_add h2{
+    position: relative;
+    font-size: 6em;
+    bottom: 12vw;
+    right: 4.5vw;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #000000;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.elements_add h2:hover {
+    box-shadow: inset 500px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.elements_add span{
+    font-size: 25px;
+    margin: 0rem 2rem 2rem;
+}
+
+.elements_add h3{
+    font-size: 35px;
+    font-size: 25px;
+    margin: 0rem 2rem 2rem;
+}
 
                                                                                            /* CATALOG*/
 .titleProducts{
@@ -234,12 +291,10 @@ position: relative;
     justify-content:space-evenly;
 }
 .product{
-    background-color: #aec3b0;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    margin: 1rem;
     width: 200px;
-    height: 500px;
-    position: relative;
+    border-radius: 10px;
+    box-shadow: -6px -6px 20px rgb(255 255 255), 6px 6px 20px rgb(0 0 0 / 10%);
 }
 .product_img{
     display: flex;
@@ -250,9 +305,6 @@ position: relative;
 .product_img img{
     width: 100%;
 }
-.product__info {
-    margin: 1.5rem;
-}
 .product__info h2{
     font-size: 1.4rem;
 }
@@ -260,33 +312,13 @@ position: relative;
     margin-top: 1rem;
     line-height: 1.5rem;
 }
-.product_button{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.product_button button{
-    border: none;
-    background-color:#3C493F;
-    font-size: 1rem;
-    color: aliceblue;
-    padding: 0.5rem 1.5rem;
-}
-
-.product_price{
-    position: absolute;
+.lineDown{
     display: block;
     top: 29px;
-    width: 80px;
-    background-color: #3C493F;
-    font-size: 1rem;
-    padding: 0.5rem 1.5rem;
-    color: aliceblue;
+    background-color: #000000;
+    padding: 0.2rem; 
+    margin-bottom: 1rem;
 }
-
-
-
-
                                                                                            /* CONTACT US */
 section{
     height: 100vh;
@@ -688,6 +720,57 @@ textarea{
         text-decoration:solid;
         font-size: 40px;
         color: #000000;
+    }
+    .container_add{
+        background-color: tan;
+        width: 100%;
+        height: 800px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .container_add img{
+        height: 100%;
+        
+    }
+    
+    .elements_add{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border: 3px solid black;
+        font-size: 20px;
+    }
+    
+    #block {
+        width: 70px;
+        height: 70px;
+        background-color: #000000;
+        margin-bottom: 100px;
+        position: absolute;
+        top: 72px;
+        left: 1195px;
+    }
+    
+    .elements_add h2{
+        position: relative;
+        font-size: 6em;
+        bottom: 12vw;
+        right: 5.5vw;
+        
+    }
+    
+    .elements_add span{
+        font-size: 25px;
+        margin: 0rem 2rem 2rem;
+    }
+    
+    .elements_add h3{
+        font-size: 35px;
+        font-size: 25px;
+        margin: 0rem 2rem 2rem;
     }
     
     /* grid 1*/
