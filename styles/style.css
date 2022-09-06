@@ -8,57 +8,8 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
-header{
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    z-index: 100;
-    padding: 0 40px;
-    background-color: #F0F7F4;
-}
-
-.container-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-}
-.logo{
-    height: 70px;
-}
-
-.logo img{
-    display: block;
-    height: 100%;
-}
-
-.barButton{
-    display: none;
-}
-ul li{
-    list-style-type: none;
-    display: inline-flex;
-    padding: 10px;
-    
-}
-
-ul li a{
-    text-decoration: none;
-    color: black;
-    position: relative;
-}
-
-.link {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .link a {
-letter-spacing: 0.5rem;
-text-decoration: none;
 color: #333;
-font-size: 1.5rem;
-position: relative;
 }
 
 .link:after {
@@ -311,8 +262,6 @@ textarea{
                                                                                            /* FOOTER */
 
 .cards {
-    display: flex;
-    justify-content: space-around;
     padding: 1rem 2rem 2rem;
     width: 100%;
     background-color: #7E8D85;
