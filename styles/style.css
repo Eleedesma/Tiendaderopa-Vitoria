@@ -36,6 +36,18 @@ color: #333;
                                                                                            /* HOME */
 
 
+.hero{
+    height: 500px;
+    background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
+    background-position: end;
+    background-size: cover;
+}
+
+#pic-add{
+    height: 500px;
+    object-fit:cover;
+    vertical-align:bottom;
+}
                                                                                            /* CATALOG*/
 .titleProducts{
     display: flex;
@@ -336,38 +348,6 @@ textarea{
 }
 
 @media screen and (max-width: 680px){
-    header{
-        position: sticky;
-        top: 0px;
-        max-width: 680px;
-        width: 100%;
-        z-index: 100;
-        background-color: #F0F7F4;
-    }
-    .container-nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 70px;
-        padding: 0 1rem;
-        width: 100%;
-    }
-    .logo{
-        height: 40px;
-    }
-    
-    .logo img{
-        display: block;
-        height: 100%;
-    }
-    
-    .menu-navegacion{
-        display: none;
-    }
-    .barButton{
-        display: block;
-        width: 25px;
-    }
     .hero{
         height: 200px;
         background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
@@ -381,7 +361,6 @@ textarea{
         font-size: 40px;
         font-weight: 400;
         color: #000000;
-        margin-bottom: 15px;
     }
     
     .hero p{
@@ -403,7 +382,6 @@ textarea{
     
     .container-text a{
         text-decoration:solid;
-        font-size: 40px;
         color: #000000;
     }
     .container_add{
@@ -585,3 +563,4 @@ textarea{
         font-style: italic;
     }
     }
+    
