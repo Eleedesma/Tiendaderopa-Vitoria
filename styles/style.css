@@ -215,7 +215,63 @@ position: relative;
     object-position: 0 0 50px 0;
 }
 /* middle section */
+.container_add{
+    background-color: tan;
+    width: 100%;
+    height: 800px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container_add img{
+    height: 100%;
+    
+}
 
+.elements_add{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+#block {
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 72px;
+    left: 1195px;
+}
+
+.elements_add h2{
+    position: relative;
+    font-size: 6em;
+    bottom: 12vw;
+    right: 4.5vw;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #000000;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.elements_add h2:hover {
+    box-shadow: inset 500px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.elements_add span{
+    font-size: 25px;
+    margin: 0rem 2rem 2rem;
+}
+
+.elements_add h3{
+    font-size: 35px;
+    font-size: 25px;
+    margin: 0rem 2rem 2rem;
+}
                                                                                            /* CATALOG*/
 .titleProducts{
     display: flex;
