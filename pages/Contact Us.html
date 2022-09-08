@@ -11,25 +11,23 @@
     </head>
     <body>
         <header>
-            <div class="container sticky">
-                <nav class="navbar navbar-expand-sm navbar-light bs-gray-100 ms-auto">
-                    <div class="navbar-brand mb-0 h1">
-                        <img class="d-inline-block aling-top" src="../images/Logo vitoria.png" widhth="60" height="60" alt="logo">
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"><a class="nav-link active" href="../index.html">Inicio</a></li>
-                            <li class="nav-item active"><a class="nav-link active" href="./pages/catalog.html">Catalogo</a></li>
-                            <li class="nav-item active"><a class="nav-link active" href="./pages/Contact Us.html">Contacto</a></li>
-                            <li class="nav-item active"><a class="nav-link active" href="./pages/about us.html">Sobre Nosotros</a></li>
-                            <li class="nav-item active"><a class="nav-link active" href="./pages/Story.html">Nosotros</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+            <nav class="navbar navbar-expand-lg bg-light p-md-3">
+                <div class="container">
+                    <img class="d-inline-block aling-top" src="../images/Logo vitoria.png" widhth="60" height="60" alt="logo">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./catalog.html">Catalogo</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./Contact Us.html Us.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./about us.html">Somos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./Story.html">Nosotros</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <main>
             <section>
@@ -48,75 +46,81 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="cards">
-                <div class="card_contact">
-                    <h4 class="contact-title"> We are @</h4>
-                    <div class="contact">
-                        <div class="items">
-                            <img src="../images/house-door-fill.svg" alt="Adress">
-                            <h5>Adress</h5>
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                <div class="col mb-3">
+                    <div class="nav flex flex-column justify-content-center align-items-center">
+                        <h5>Somos</h5>
+                        <div class="nav-item mb-1 d-flex flex-column align-items-center">
+                            <div>
+                                <a href="#" class="nav-link p-0"> <img src="../images/house-door-fill.svg" alt="Adress"></a>
+                            </div>
+                            <div>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                            </div>
                         </div>
-                        <span>
-                            Lorem ipsum dolor sit amet consectetur.
-                        </span>
-                    </div>
-                    <div class="contact">
-                        <div class="items">
-                            <img src="../images/envelope-fill.svg" alt="Email">
-                            <h5>Email</h5>
-                        </div>        
-                        <span>
-                            Loremipsumdo24@sitametconse.com
-                        </span>
-                    </div>
-                    <div class="contact">
-                        <div class="items">
-                            <img src="../images/telephone-fill.svg" alt="Phone">
-                            <h5>Phone</h5>
+                        <div class="nav-item mb-1 d-flex flex-column align-items-center">
+                            <div>
+                                <a href="#" class="nav-link p-0"> <img src="../images/envelope-fill.svg" alt="Email"></a>
+                            </div>
+                            <div>
+                                <span>Loremipsumdo24@sitametconse.com</span>
+                            </div>
+
                         </div>
-                    <span>
-                        +54 11234567891
-                    </span>
-                    </div>
-                    <div class="contact">
-                        <div class="items">
-                            <img src="../images/printer-fill.svg" alt="Fax">
-                            <h5>Fax</h5>
+                        <div class="nav-item mb-1 d-flex flex-column align-items-center">
+                            <div>
+                                <a href="#" class="nav-link p-0"> <img src="../images/telephone-fill.svg" alt="Phone"></a>
+                            </div>
+                            <div>
+                                <span>+54 11234567891</span>
+                            </div>
                         </div>
-                    <span>
-                        1123 4567 8915
-                    </span>
+                        <div class="nav-item mb-1 d-flex flex-column align-items-center">
+                            <div>
+                                <a href="#" class="nav-link p-0"> <img src="../images/printer-fill.svg" alt="Fax"></a>
+                            </div>
+                            <div>
+                                <span>1123 4567 8915</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card_logo">
-                    <img src="../images/Logo vitoria.png" alt="logo-footer">
-                </div>  
-                <div class="card_social">
-                    <h4 class="social-title">Contacts</h4>
-                    <button type="button" class="icons">
-                        <a href="#">
-                             <img src="../images/instagram.svg" alt="instagram"> 
-                        </a>
-                    </button>
-                    <button type="button" class="icons">
-                        <a href="#">
-                             <img src="../images/whatsapp.svg" alt="whatsapp"> 
-                        </a>
-                    </button>
-                    <button type="button" class="icons">
-                        <a href="#">
-                             <img src="../images/twitter.svg" alt="twitter"> 
-                        </a>
-                    </button>
-                    <button type="button" class="icons">
-                        <a href="#">
-                             <img src="../images/messenger.svg" alt="messenger"> 
-                        </a>
-                    </button>
+
+                <div class="col mb-3">
+        
                 </div>
-            </div>
-        </footer> 
+            
+                <div class="col mb-3">
+                    <div class="nav flex flex-column  align-top">
+                        <img src="../images/Logo vitoria.png" alt="logo" style="width: 100%;">
+                    </div>
+                </div>
+            
+                <div class="col mb-3">
+        
+                </div>
+
+                <div class="col mb-3">
+                    <div class="nav flex flex-column justify-content-center align-items-center">
+                        <h5>Contacto</h5>
+                        <div class="nav-item mb-4">
+                            <a href="#" class="nav-link p-0 text-muted"> <img src="../images/instagram.svg" alt="Instagram"></a>
+                        </div>
+                        <div class="nav-item mb-4">
+                            <a href="#" class="nav-link p-0 text-muted"> <img src="../images/whatsapp.svg" alt="Instagram"></a>
+                        </div>
+                        <div class="nav-item mb-4">
+                            <a href="#" class="nav-link p-0 text-muted"> <img src="../images/twitter.svg" alt="Instagram"></a>
+                        </div>
+                        <div class="nav-item mb-4">
+                            <a href="#" class="nav-link p-0 text-muted"> <img src="../images/messenger.svg" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            
+            </footer>
+          </div>
     </body>
     
 
