@@ -219,14 +219,11 @@ position: relative;
 .container_add{
     position: relative;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 500px;
     padding: 20px 100px;
 }
 .elements_add{
-    max-width: 850px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -239,7 +236,7 @@ position: relative;
 .left-1{
    background: url(../images/eaa33390b1fffece1a91a539d633f60e.png);
    background-size: cover;
-   height: 100%;
+   height: 400px;
 }
 
 .right-2{
@@ -701,53 +698,32 @@ textarea{
     .container_add{
         background-color: tan;
         width: 100%;
-        height: 800px;
+        height: 400px;
         padding: 50px;
         display: flex;
         justify-content: center;
-        position: relative;
+        
     }
     .container_add img{
         height: 100%;
         
     }
-    
     .elements_add{
-        width: 600px;
+        width: 300px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         border: 3px solid black;
-        font-size: 20px;
+        font-size: 5em;
     }
-    
-    #block {
-        width: 70px;
-        height: 70px;
-        background-color: #000000;
-        margin-bottom: 100px;
-        position: absolute;
-        top: 72px;
-        left: 1195px;
+
+   
+    br{
+        display: none;
     }
-    
-    .elements_add h2{
-        position: relative;
-        font-size: 6em;
-        bottom: 12vw;
-        right: 5.5vw;
-        
-    }
-    
     .elements_add span{
-        font-size: 25px;
-        margin: 0rem 2rem 2rem;
-    }
-    
-    .elements_add h3{
-        font-size: 35px;
-        font-size: 25px;
-        margin: 0rem 2rem 2rem;
+        font-size: 12px;
     }
     
     /* grid 1*/
