@@ -9,15 +9,51 @@
 }
 
 
+
                                                                                            /* HOME */
-.banner-image{
-    background-image: url(../images/5461314.jpg);
+.hero{
+    height: 500px;
+    background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
+    background-position: end;
     background-size: cover;
-}
-.background-nav{
-    background-color: #A2E3C4;
+    font-family: 'Acme', sans-serif;
 }
 
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    color: #000000;
+}
+
+.container-text{
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.container-text a{
+    text-decoration:solid;
+    font-size: 40px;
+    color: #000000;
+}
+
+#background{
+    background: url(https://i.pinimg.com/originals/0a/8a/0c/0a8a0c9fd4dbde9dae7608a3f7862ba3.jpg);
+    background-size: cover;
+}
 /* grid 1*/
 .grid-layout_container{
     display: grid;
@@ -135,7 +171,7 @@
 .right-2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: s;
     padding: 25px 40px;
     background: linear-gradient(-45deg, #f36438, #e73c7e, #ffd761, #fffd6dd8);
     background-size: 400% 400%;
@@ -208,6 +244,7 @@ section{
     width: 100%;
 }
 .contact-container{
+    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
@@ -544,30 +581,7 @@ textarea{
         z-index: 100;
         background-color: #F0F7F4;
     }
-    .container-nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 70px;
-        padding: 0 1rem;
-        width: 100%;
-    }
-    .logo{
-        height: 40px;
-    }
     
-    .logo img{
-        display: block;
-        height: 100%;
-    }
-    
-    .menu-navegacion{
-        display: none;
-    }
-    .barButton{
-        display: block;
-        width: 25px;
-    }
     .hero{
         height: 200px;
         background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
@@ -607,7 +621,6 @@ textarea{
         color: #000000;
     }
     .container_add{
-        background-color: tan;
         width: 100%;
         height: 400px;
         padding: 50px;
@@ -698,69 +711,3 @@ textarea{
     }
 
     /* Card contact */
-
-    .card_contact{
-        width: 100px;
-        background-color: #7E8D85;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly
-        
-    }
-    .contact{
-        margin-bottom: 0.5rem;
-    }
-    .contact-title {
-        font-weight: lighter;
-        font-style: italic;
-    }
-    .items{
-        display: flex;
-    }
-
-    .items h5{
-        font-weight: lighter;
-    }
-
-    .contact span{
-        display: none;
-    }
-
-    .items img{
-        margin-right: 0.5rem;
-    }
-
-
-    /* Footer logo */
-
-    .card_logo{
-        width: 70px;
-        display: flex;
-        justify-content: center;
-    } 
-    .card_logo img{
-        width: 100%;
-    }
-
-    /* Card social */
-
-    .card_social {
-        width: 100px;
-        background-color: #7E8D85;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .card_social button{
-        border: none;
-        background-color: #7E8D85;
-    }
-
-    .social-title{
-        font-weight: lighter;
-        font-style: italic;
-    }
-    }
