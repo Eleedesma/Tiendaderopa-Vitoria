@@ -1,0 +1,21 @@
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 40px;
+    background-color: $primary-color;
+    .logo{
+        height: 30px;
+            img{
+                display: block;
+                height: 100%;
+            }
+    }
+    .container-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+}
