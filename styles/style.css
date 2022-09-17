@@ -1,11 +1,22 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
                                                                                            /* TODO */
 
 .barButton{
     display: none;
 }
                                                                                            /* HOME */
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
                                                                                            /* CATALOG*/
 .titleProducts{
     display: flex;
