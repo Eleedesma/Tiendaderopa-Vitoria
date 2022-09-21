@@ -17,7 +17,7 @@ ul{
                             left: 0;
                             height: 2px;
                             width: 100%;
-                            background: $terciary-color;
+                            background:  black;
                             /*animacion de derecha a izquierda*/
                             transform-origin: right;
                             transform: scaleX(0);
@@ -32,4 +32,7 @@ ul{
             }
     
         }
+}
+.logo-header{
+    height: 30px;
 }

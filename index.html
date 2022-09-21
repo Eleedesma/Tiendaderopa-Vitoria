@@ -7,13 +7,14 @@
         <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./styles/style.css">
-        <title>Vitoria</title>
+        <title>Vitoria | Home</title>
+        <meta name="description" content="Visita nuestra tienda y llevate eso que tanto te gusta. Argentina. Ropa unisex. Ofertas exclusivas. Comprá desde tu casa. Envíos gratis a compras mayores de $10.000 en todo el país. Todos los medios de pago. Retiro en tienda.">
     </head>
     <body>
         <div class="container sticky">
             <nav class="navbar navbar-expand-sm navbar-light bs-gray-100 ms-auto ">
                 <div class="navbar-brand mb-0 h1">
-                    <img class="d-inline-block aling-top" src="./images/Logo vitoria.png" widhth="60" height="60" alt="logo">
+                    <img class="d-inline-block aling-top logo-header" src="./images/Logo vitoria.png" alt="logo">
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,26 +22,27 @@
                 <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link active animation" href="./index.html">Inicio</a></li>
-                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/catalog.html">Catalogo</a></li>
-                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Contact Us.html">Contacto</a></li>
-                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/about us.html">Somos</a></li>
-                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Story.html">Nosotros</a></li>
+                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Catálogo.html">Catálogo</a></li>
+                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Contacto.html">Contacto</a></li>
+                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Somos.html">Somos</a></li>
+                        <li class="nav-item active"><a class="nav-link active animation" href="./pages/Donde Estamos.html">Donde Estamos</a></li>
                     </ul>
                 </div>
             </nav>
         </div>    
-        <section class="hero position-relative">
-            <div class="row d-inline-block position-absolute top-50 start-50 translate-middle">
-                <div class="container-text text-center" style="height:300px; width:400px;">
-                    <h1 class="h1 title">V i t o r i a</h1>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni qui tempore illum?</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#" class="list-unstyled">Come</a>
+        <section class="container-fluid hero d-flex align-items-center justify-content-center">
+            <div class="row">
+                <video autoplay loop muted plays-inline class="back-video">
+                    <source src="./images/Vídeo promocional Moda.mp4">
+                </video>
+                <div class="container-text text-center">
+                    <h1>V I T O R I A</h1>
+                    <a href="#">Come</a>
                 </div>
         </section>
         <main>
             <div class="container d-flex justify-content-center align-items-center mt-4 mb-4"">
-                <div class="row">
+                <div class="row cards-promo">
                     <div class="col-12 col-md-4 col-lg-4 text-center">
                         <div class="card" style="width: 18em;">
                             <div class="card-body">
@@ -72,24 +74,24 @@
             </div>
             <div class="container my-5 promos">
                 <div class="d-flex flex-row shadow-lg p-3 mb-5 bg-white sections-top">
-                    <div class="w-100">
+                    <div class="w-100 seccion-prendas">
                         <a href="#">
-                            <img src="./images/Outfit 1 - copia.jfif" class="img-fluid w-75" alt="img" style="height: 23em;;">
+                            <img src="./images/Outfit 1 - copia.jfif" class="img-fluid w-75" alt="img" style="height: 23em;">
                         </a>
                     </div>
-                    <div class="d-flex flex-column text-center justify-content-center align-items-center w-100 primaryColor">
+                    <div class="d-flex flex-column text-center justify-content-center align-items-center w-100 BackGround">
                         <h4 class="mb-4 display-1 text-light"> H E R E!</h4>
-                        <strong class="text-light">THIS IS FOR YOU</strong>
+                        <h4 class="text-light">THIS IS FOR YOU</h4>
                     </div>
                 </div>
             </div>
             <div class="container my-5 promos">
                 <div class="d-flex flex-row shadow-lg p-3 mb-5 bg-white sections-top">
-                    <div class="d-flex flex-column text-center justify-content-center align-items-center w-100 primaryColor">
+                    <div class="d-flex flex-column text-center justify-content-center align-items-center w-100 BackGround">
                         <h4 class="mb-4 display-1 text-light"> H E R E!</h4>
-                        <strong class="text-light">THIS IS FOR YOU</strong>
+                        <h4 class="text-light">THIS IS FOR YOU</h4>
                     </div>
-                    <div class="w-100">
+                    <div class="w-100 seccion-prendas">
                         <a href="#">
                             <img src="./images/outfit 2 (1).jpg" class="img-fluid w-50" alt="img" style="height: 23em;">
                         </a>
@@ -168,8 +170,8 @@
         
                 </div>
             
-                <div class="col mb-">
-                    <div class="nav flex flex-column align-top">
+                <div class="col mb-3 d-flex justify-content-center">
+                    <div class="nav flex flex-column Logo-footer">
                         <img src="./images/Logo vitoria.png" class="align" alt="logo" style="width: 100%;">
                     </div>
                 </div>
