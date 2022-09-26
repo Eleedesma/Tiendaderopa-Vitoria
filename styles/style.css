@@ -22,7 +22,15 @@
 		background-position: 0% 50%;
 	}
 }
+.section-top{
+    height: 300px;
+}
 
+.seccion-prendas img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
                                                                                            /* CATALOGO */
 .titleProducts{
@@ -306,6 +314,8 @@ textarea{
                                                                                            /* FOOTER */
 
                                                                                          /* MEDIAQUERYS */
+
+                                                                                         
 @media screen and (max-width: 680px){
     header{
         position: sticky;
@@ -315,7 +325,9 @@ textarea{
         z-index: 100;
         background-color: #F0F7F4;
     }
-    
+    .hero video{
+        display: none;
+    }
     .hero{
         height: 200px;
         background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
@@ -353,8 +365,8 @@ textarea{
         color: white;
     }
     
-    .seccion-prendas a{
-            display: none;
+    .seccion-prendas{
+        display: none;
     }
 
     .BackGround{
@@ -395,17 +407,11 @@ textarea{
         grid-column-start: 2 span;
         grid-row-start: 2 span;
     }
-    /* CATALOG */
-    .product{
-        background-color: #aec3b0;
-        padding: 0.5rem;
-        margin: 0.5rem;
-        width: 200px;
-        height: 400px;
-        position: relative;
-    }
-    .w-75{
-        display: none;
+    
+    .footer-somos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 @media screen and (max-width: 550px){
@@ -413,7 +419,9 @@ textarea{
     section video{
         display: none;
     }
-
+    .seccion-prendas{
+        display: none;
+    }
     .elements_add{
     }
     .left-1{
