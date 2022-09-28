@@ -311,48 +311,6 @@ textarea{
 
                                                                                          
 @media screen and (max-width: 680px){
-    header{
-        position: sticky;
-        top: 0px;
-        max-width: 680px;
-        width: 100%;
-        z-index: 100;
-        background-color: #F0F7F4;
-    }
-    .hero{
-        font-family: 'Acme', sans-serif;
-    }
-    
-    .hero h1{
-        font-size: 40px;
-        font-weight: 400;
-        color: white;
-        margin-bottom: 15px;
-    }
-    
-    .hero p{
-        font-size: 9px;
-        font-weight: 200;
-        font-style: italic;
-        color: white;
-    }
-    
-    .container-text{
-        padding: 0%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        line-height: 2rem;
-    }
-    
-    .container-text a{
-        text-decoration: solid;
-        font-size: 20px;
-        color: white;
-    }
-    
     .seccion-prendas{
         display: none;
     }
@@ -391,36 +349,9 @@ textarea{
           0 7.3px 11px rgba(0, 0, 0, 0.346), 0 20px 30px rgba(0, 0, 0, 0.5);
           
     }
-    .gallery_pic:nth-child(1){
-        grid-column-start: 2 span;
-        grid-row-start: 2 span;
-    }
     
-    .footer-somos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     
-@media screen and (max-width: 550px){
-    /* MOBILE HOME */
-    .seccion-prendas{
-        display: none;
-    }
-    .elements_add{
-    }
-    .left-1{
-        display: none;
-    }
-    .right-2{
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .right-2 h2{
-        font-size: 50px
-    }
-    
+
     
     /* MOBILE CONTACT */
     .contact-container{
