@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
                                                                                            /* HOME */
-
-        
-
-@media (min-aspect-ratio: 16/9){
-    .back.video{
-        width: auto;
-        height: 100%;
-    }
-}
     
 @keyframes gradient {
 	0% {
@@ -275,9 +266,6 @@ textarea{
 }
 
                                                                                            /* DONDE ESTAMOS */
-
-
-
 .coloured-cards .card {
     margin-top: 30px;
 }
@@ -310,9 +298,6 @@ textarea{
 .content-card{
     margin-top:30px;    
 }
-
-                                                                                           /* FOOTER */
-
                                                                                          /* MEDIAQUERYS */
 
                                                                                          
@@ -325,13 +310,7 @@ textarea{
         z-index: 100;
         background-color: #F0F7F4;
     }
-    .hero video{
-        display: none;
-    }
     .hero{
-        height: 200px;
-        background-image: url("../images/photo-1488161628813-04466f872be2.jfif");
-        background-size: cover;
         font-family: 'Acme', sans-serif;
     }
     
@@ -416,9 +395,6 @@ textarea{
     
 @media screen and (max-width: 550px){
     /* MOBILE HOME */
-    section video{
-        display: none;
-    }
     .seccion-prendas{
         display: none;
     }
@@ -454,5 +430,12 @@ textarea{
     }
     .card_logo_img{
         width: 30%;
+    }
+}
+
+@media (min-aspect-ratio: 16/10){
+    .back.video{
+        width: auto;
+        height: 100%;
     }
 }
