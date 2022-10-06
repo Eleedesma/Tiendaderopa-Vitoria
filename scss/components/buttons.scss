@@ -1,0 +1,17 @@
+.button-more{
+    bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #582f0e;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #ffff;
+    transition: .3s;
+        &:hover{
+            background-color: #3b200a;
+        }
+        &:target{
+            display: block;
+        }
+}

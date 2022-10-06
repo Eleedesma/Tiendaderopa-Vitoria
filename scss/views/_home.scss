@@ -1,19 +1,15 @@
-
 .hero{
-    height: 690px;
+    height: 100vh;
     font-family: 'Acme', sans-serif;
-    @media screen and (max-width: 680px){
-        height: 618px;
-    }
         h1{
             font-size: 160px;
             color: #fff;
             font-weight: 400;
             transition: 0.5s;
-            &:hover{
-                -webkit-text-stroke: 2px #fff;
-                color: transparent;
-            }
+                &:hover{
+                    -webkit-text-stroke: 2px #fff;
+                    color: transparent;
+                }
         }
         a{
             font-size: 24px;
@@ -26,17 +22,17 @@
             border-radius: 50px;
             margin-top: 20px;
         }
-        @media screen and (max-width: 680px){
+        @media screen and (max-width: 768px){
             h1{
-                font-size: 40px;
+                font-size: 120px;
                 color: #fff;
                 font-weight: 400;
                 transition: 0.5s;
                 margin: 2rem;
-                &:hover{
-                    -webkit-text-stroke: 2px #fff;
-                    color: transparent;
-                }
+                    &:hover{
+                        -webkit-text-stroke: 2px #fff;
+                        color: transparent;
+                    }
             }
             a{
                 font-size: 24px;
@@ -48,15 +44,43 @@
                 padding: 14px 70px;
                 border-radius: 50px;
                 margin-top: 20px;
-            }  
+            }
+        }
+
+        @media screen and (max-width: 680px){
+            h1{
+                font-size: 40px;
+                color: #fff;
+                font-weight: 400;
+                transition: 0.5s;
+                margin: 2rem;
+                    &:hover{
+                        -webkit-text-stroke: 2px #fff;
+                        color: transparent;
+                    }
+            }
+            a{
+                font-size: 20px;
+                font-weight: 200;
+                font-style: italic;
+                text-decoration: none;
+                color: #fff;
+                border: 2px solid #fff;
+                padding: 14px 50px;
+                border-radius: 50px;
+                margin-top: 20px;
+            }
         }
         .back-video{
             position: absolute;
             right: 0;
             bottom: 0;
             z-index: -1;
-            width: auto;
             height: 100%;
+                @media screen and (min-width: 1440px){
+                    width: 100%;
+                    height: 100vh;
+                }
         }
      
 }
@@ -67,12 +91,63 @@
         .BackGround{
             background-color: map-get($colors-, secondary);
         }
+        .seccion-prendas img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @media screen and (max-width: 680px){
+            .BackGround{
+                width: 500px;
+            }
+            .seccion-prendas{
+                display: none;
+            }
+        }
 }
+    
 .container_add{
     position: relative;
     width: 100%;
     height: 500px;
-    padding: 20px 100px;
+    padding: 1em 1em;
+        @media screen and (max-width: 680px){
+                .elements_add{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    border: 3px solid black;
+                    font-size: 5em;
+                    border: none;
+                        span{
+                            font-size: 12px;
+                        }
+                        .left-1{
+                            display: none;
+                        }
+                        .right-2{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: 25px 40px;
+                            background: linear-gradient(-45deg, #f36438, #e73c7e, #ffd761, #fffd6dd8);
+                            background-size: 400% 400%;
+                            animation: gradient 15s ease infinite;
+                            height: 100%;
+                            }
+                        @media screen and (max-width: 550px){
+                            .right-2{
+                                width: 100%;
+                                justify-content: space-between;
+                                align-items: center;
+                            }
+                            .right-2 h2{
+                                font-size: 50px
+                            }
+                        }
+                }
+            }
         .elements_add{
             max-width: 100%;
             display: grid;
@@ -91,25 +166,28 @@
                 .right-2{
                     display: flex;
                     flex-direction: column;
-                    justify-content: s;
+                    justify-content: center;
                     padding: 25px 40px;
                     background: linear-gradient(-45deg, #f36438, #e73c7e, #ffd761, #fffd6dd8);
                     background-size: 400% 400%;
                     animation: gradient 15s ease infinite;
                     height: 100%;
-                }
-                @media screen and (max-width: 550px){
-                    .left-1{
-                        display: none;
                     }
-                    .right-2{
-                        width: 100%;
-                        justify-content: space-between;
-                        align-items: center;
+                @keyframes gradient{
+                    0% {
+                        background-position: 0% 50%;
                     }
-                    .right-2 h2{
-                        font-size: 50px
+                    50% {
+                        background-position: 100% 50%;
                     }
-                }    
+                    100% {
+                        background-position: 0% 50%;
+                    }
+            }
+            
+        
         }
-    }
+        
+            
+}
+
